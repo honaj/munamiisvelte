@@ -5,8 +5,8 @@
     </h1>
 
     <!-- navigation menu -->
-    <nav class="mt-4 mb-4">
-        <ul class="flex justify-center space-x-8 text-2xl font-JosefinSans font-bold">
+    <nav class="mt-4 mb-4 m-4">
+        <ul class="flex justify-center space-x-4 text-2xl font-JosefinSans font-bold">
             <li><a href="/" class="">Home</a></li>
             <li><a href="/about" class="">About</a></li>
             <li><a href="/products" class="">Products</a></li>
