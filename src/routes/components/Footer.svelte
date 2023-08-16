@@ -1,16 +1,13 @@
 <script lang="ts">
-    import { writable, derived} from 'svelte/store';
-    import {onMount} from "svelte";
+    import { writable, derived } from 'svelte/store';
+    import { onMount } from "svelte";
+    import '@fortawesome/fontawesome-free/css/all.css';
 
     let fbIconLoaded: boolean = false;
     let igIconLoaded: boolean = false;
     let emailIconLoaded: boolean = false;
 
     onMount(() => {
-        const linkElement = document.createElement('link');
-        linkElement.rel = 'stylesheet';
-        linkElement.href = '/node_modules/@fortawesome/fontawesome-free/css/all.css';
-        document.head.appendChild(linkElement);
         fbIconLoaded = true;
         igIconLoaded = true;
         emailIconLoaded = true;
