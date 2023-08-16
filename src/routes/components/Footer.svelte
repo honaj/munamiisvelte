@@ -20,7 +20,7 @@
     const obfuscatedEmail = derived(email, ($email: string) => $email.split("").reverse().join(""));
 </script>
 
-<footer class="bg-gray-800 text-white p-6">
+<footer class="bg-gray-800 text-munamiidarkgreen p-6">
     <div class="container mx-auto flex flex-col items-center justify-between">
         <div>
             <a href="https://facebook.com" target="_blank" class="mx-3">
