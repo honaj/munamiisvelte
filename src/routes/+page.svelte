@@ -1,3 +1,7 @@
+<script>
+    console.log("test")
+</script>
+
 <div class="h-screen bg-yellow-100 flex flex-col items-center justify-center space-y-12 text-center p-10">
     <div class="text-6xl font-bold text-red-700">
         <h1>Hi! Welcome to Munamii Cakery!</h1>

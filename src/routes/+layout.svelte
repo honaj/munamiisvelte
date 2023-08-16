@@ -1,14 +1,13 @@
-﻿<script>
+﻿<script xmlns="http://www.w3.org/1999/html">
     import "../app.css"
     import Navbar from "./components/Navbar.svelte"
+    import Footer from "./components/Footer.svelte";
 </script>
 
 <div>
+    <Navbar />
     <main>
-        <Navbar />
-        <!-- Page content -->
         <slot></slot>
     </main>
+    <Footer />
 </div>
-
-<slot />

@@ -5,10 +5,10 @@
     <!-- navigation menu -->
     <nav class="mt-4 mb-4">
         <ul class="flex justify-center space-x-8">
-            <li><a href="/" class="text-xl">Home</a></li>
-            <li><a href="/about" class="text-xl">About</a></li>
-            <li><a href="/products" class="text-xl">Products</a></li>
-            <li><a href="/contact" class="text-xl">Contact</a></li>
+            <li><a href="/" class="text-2xl">Home</a></li>
+            <li><a href="/about" class="text-2xl">About</a></li>
+            <li><a href="/products" class="text-2xl">Products</a></li>
+            <li><a href="/contact" class="text-2xl">Contact</a></li>
         </ul>
     </nav>
 </div>
